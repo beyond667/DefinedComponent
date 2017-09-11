@@ -90,6 +90,4 @@ crashlytics.properties
 crashlytics-build.properties
 
 *.txt
-
-
-*.hprof
+gradle.properties
