@@ -21,7 +21,7 @@
     <paul.com.defined.RainView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000000"
+        android:background="@drawable/rain"
         rain:rain_color="0xffffffff"
         rain:rain_num="200"
         rain:rain_size_x="1"
