@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rain="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="paul.com.defined.MainActivity">
+
+    <paul.com.defined.DefinedView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ff00"
+        android:visibility="gone" />
+
+    <paul.com.defined.MyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0000ff"
+        android:visibility="gone" />
+
+    <paul.com.defined.RainView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rain"
+        rain:rain_color="0xffffffff"
+        rain:rain_num="200"
+        rain:rain_size_x="1"
+        rain:rain_size_y="3" />
+
+</RelativeLayout>
